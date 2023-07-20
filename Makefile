@@ -30,8 +30,8 @@ OBJCOPY=arm-none-eabi-objcopy
 OFLAGS=-O ihex
 
 # Final binaries
-HEX=$(BIN)/blink.hex
-ELF=$(BIN)/blink.elf
+HEX=$(BIN)/main.hex
+ELF=$(BIN)/main.elf
 
 # All intermediate object files
 OBJ=$(BIN)/main.o $(BIN)/boot.o $(BIN)/init.o
